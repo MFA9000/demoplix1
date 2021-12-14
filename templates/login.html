@@ -13,16 +13,32 @@
 
 <body>
   <!-- your content here... -->
-  <h1>Login</h1>
-  
-  <!form action="https://micro-okta.herokuapp.com/login">
-  <form action="https://micro-okta.herokuapp.com/login">
-  <label for="fname">User name</label><br>
-  <input type="text" id="id" name="id" ><br>
-  <label for="lname">Password</label><br>
-  <input type="text" id="pass" name="pass" ><br><br>
-  <input type="submit" value="Submit">
-  </form>
+  <div class="container">
+	<div class="screen">
+		<div class="screen__content">
+			<form class="login" action="https://micro-okta.herokuapp.com/login" method="get">
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text" name="id" class="login__input" placeholder="User name / Email">
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password" name='pass' class="login__input" placeholder="Password">
+				</div>
+				<button type="submit" class="button login__submit">
+					<span class="button__text">Log In Now</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>
+			</form>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>
+	</div>
+</div>
   
 </body>
 </html>
