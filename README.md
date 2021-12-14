@@ -1,2 +1,2 @@
 # Marine Palms Resort Web App
-### Deployed at: (demoplix1.herokuapp.com)[demoplix1.herokuapp.com]
+### Deployed at: [demoplix1.herokuapp.com](https://demoplix1.herokuapp.com)
